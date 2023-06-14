@@ -16,11 +16,11 @@ export default function Deshboard() {
     }
 
     return (
-        <>
+        <main>
 
-            <div className='encabezado'>
+            <header className='encabezado'>
                 <section className='content-text'>
-                    <p>Social Media Dashboard</p>
+                    <h1>Social Media Dashboard</h1>
                     <p>Total Followers: 23,004</p>
                 </section>
                 <section className='theme'>
@@ -31,8 +31,8 @@ export default function Deshboard() {
                         <label htmlFor="btn-check" className='lbl-check'></label>
                     </div>
                 </section>
-            </div>
-            <div className='content-deshboard'>
+            </header>
+            <section className='content-deshboard'>
                 {
                     data.map((item, i) => {
                         return (
@@ -46,7 +46,7 @@ export default function Deshboard() {
                         )
                     })
                 }
-            </div>
-        </>
+            </section>
+        </ main>
     )
 }

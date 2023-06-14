@@ -10,7 +10,7 @@ export default function ItemSecundario(props) {
     }
 
     return (
-        <div className='contentSecondary'>
+        <article className='contentSecondary'>
             <div className='contentSecondary__first'>
                 <label className='first--label'>Page Views</label>
                 <img className='first--img'
@@ -28,6 +28,6 @@ export default function ItemSecundario(props) {
                     </label>
                 </div>
             </div>
-        </div>
+        </article>
     )
 }

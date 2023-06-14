@@ -29,7 +29,7 @@ export default function ItemPrincipal(props) {
 
 
   return (
-    <div className={`${detectar(props.icon)} itemContent`}>
+    <article className={`${detectar(props.icon)} itemContent`}>
       <div className='itemContent__etiqueta'>
         <img className='etiqueta--img'
           src={iconos(props.icon)} alt="fb" />
@@ -44,6 +44,6 @@ export default function ItemPrincipal(props) {
         <label
           className={upDown(props.icon2) ? 'statistics--number greenText' : 'statistics--number redText'} >{props.followers} Today </label>
       </div>
-    </div>
+    </article>
   )
 }

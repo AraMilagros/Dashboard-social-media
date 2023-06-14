@@ -1,7 +1,6 @@
 @import url('./Theme.css');
 
-
-.content-text p:first-child{
+.content-text h1{
     font-size: 1.8em;
     font-weight: 800;
     margin-bottom: 0;

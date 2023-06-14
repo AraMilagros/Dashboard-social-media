@@ -7,11 +7,11 @@ import data2 from '../assets/json/stastistics.json';
 export default function Overview() {
     return (
         <>
-            <div className='text'>
-                <p>Overview - Today</p>
-            </div>
+            <section className='text'>
+                <h2>Overview - Today</h2>
+            </section>
 
-            <div className='content-overview'>
+            <section className='content-overview'>
                 {
                     data2.map((item, i) => {
                         return (
@@ -24,7 +24,7 @@ export default function Overview() {
                         )
                     })
                 }
-            </div>
+            </section>
         </>
     )
 }
