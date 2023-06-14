@@ -1,0 +1,23 @@
+@import url('./Theme.css');
+
+.text p{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--textPrincipal);
+}
+
+@media screen and ((min-width: 678px) and (max-width: 1328px)) {
+    .content-overview{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+
+    }
+}
+
+@media screen and ((min-width: 1328px) and (max-width: 1920px)){
+    .content-overview{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+}

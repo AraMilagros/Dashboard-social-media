@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "./icon-facebook.svg",
+        "views": "87",
+        "icon2": "./icon-up.svg",
+        "statistics": "3%"
+    },
+    {
+        "icon": "./icon-facebook.svg",
+        "views": "52",
+        "icon2": "./icon-down.svg",
+        "statistics": "2%"
+    },
+    {
+        "icon": "./icon-instagram.svg",
+        "views": "5462",
+        "icon2": "./icon-up.svg",
+        "statistics": "2257%"
+    },
+    {
+        "icon": "./icon-instagram.svg",
+        "views": "52k",
+        "icon2": "./icon-up.svg",
+        "statistics": "1375%"
+    },
+    {
+        "icon": "./icon-twitter.svg",
+        "views": "117",
+        "icon2": "./icon-up.svg",
+        "statistics": "303%"
+    },
+    {
+        "icon": "./icon-twitter.svg",
+        "views": "507",
+        "icon2": "./icon-up.svg",
+        "statistics": "553%"
+    },
+    {
+        "icon": "./icon-youtube.svg",
+        "views": "107",
+        "icon2": "./icon-down.svg",
+        "statistics": "19%"
+    },
+    {
+        "icon": "./icon-youtube.svg",
+        "views": "1407",
+        "icon2": "./icon-down.svg",
+        "statistics": "12%"
+    }
+]

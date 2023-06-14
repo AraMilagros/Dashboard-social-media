@@ -1,0 +1,27 @@
+:root{
+    --up: hsl(163, 72%, 41%);
+    --down: hsl(356, 69%, 56%);
+
+    --fb: hsl(208, 92%, 53%);
+    --twt: hsl(203, 89%, 53%);
+    --ig: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+    
+    --yt: hsl(348, 97%, 39%);
+}
+
+
+[data-theme='light']{
+    --background: hsl(0, 0%, 100%);
+    --cardBg: hsl(227, 47%, 96%);
+    --check: hsl(230, 22%, 74%);
+    --textPrincipal: hsl(230, 17%, 14%);
+    --textSecond: hsl(228, 12%, 44%);
+}
+
+[data-theme='dark']{
+    --background: hsl(230, 17%, 14%);
+    --cardBg: hsl(228, 28%, 20%);
+    --check: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --textPrincipal:  hsl(0, 0%, 100%);
+    --textSecond: hsl(228, 34%, 66%);
+}
