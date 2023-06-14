@@ -14,7 +14,7 @@ export default function ItemSecundario(props) {
             <div className='contentSecondary__first'>
                 <label className='first--label'>Page Views</label>
                 <img className='first--img'
-                    src={iconos(props.icon)}
+                    src={iconos(props.icon)} alt="icon-social-media"
                 />
             </div>
 
@@ -22,7 +22,7 @@ export default function ItemSecundario(props) {
                 <label className='second--label'>{props.views}</label>
                 <div className='second__statistics'>
                     <img className='statistics--img'
-                        src={iconos(props.icon2)} />
+                        src={iconos(props.icon2)} alt="up-down"/>
                     <label
                         className={detectar(props.icon2) ? 'statistics--label greenText' : 'statistics--label redText'} >{props.statistics}
                     </label>

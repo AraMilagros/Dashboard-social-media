@@ -6,7 +6,7 @@ import data2 from '../assets/json/stastistics.json';
 
 export default function Overview() {
     return (
-        <>
+        <section>
             <section className='text'>
                 <h2>Overview - Today</h2>
             </section>
@@ -25,6 +25,6 @@ export default function Overview() {
                     })
                 }
             </section>
-        </>
+        </section>
     )
 }
