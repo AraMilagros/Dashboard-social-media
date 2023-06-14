@@ -19,18 +19,18 @@ export default function Deshboard() {
         <>
 
             <div className='encabezado'>
-                <div className='content-text'>
+                <section className='content-text'>
                     <p>Social Media Dashboard</p>
                     <p>Total Followers: 23,004</p>
-                </div>
-                <div className='theme'>
+                </section>
+                <section className='theme'>
                     <p>Dark Mode</p>
                     <div className="button">
                         <input id="btn-check"
                             type="checkbox" onClick={cambiarTheme}></input>
                         <label htmlFor="btn-check" className='lbl-check'></label>
                     </div>
-                </div>
+                </section>
             </div>
             <div className='content-deshboard'>
                 {

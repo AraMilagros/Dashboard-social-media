@@ -40,7 +40,7 @@ export default function ItemPrincipal(props) {
 
       <div className='itemContent__statistics'>
         <img className='statistics--img'
-          src={iconos(props.icon2)} alt="" />
+          src={iconos(props.icon2)} alt="up-down" />
         <label
           className={upDown(props.icon2) ? 'statistics--number greenText' : 'statistics--number redText'} >{props.followers} Today </label>
       </div>
