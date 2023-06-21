@@ -25,11 +25,10 @@ Users should be able to:
 ![](./src/design/desktop-dark.png)
 ![](./src/design/mobile-dark.png)
 
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/AraMilagros/Dashboard-social-media.git)
-- Live Site URL: [Add live site URL here](https://dashboard-90.netlify.app/)
+- Live Site URL: [Add live site URL here](https://social-media90.netlify.app/)
 
 ### Built with
 
