@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AraMilagros/Dashboard-social-media.git)
-- Live Site URL: [Add live site URL here](https://social-media90.netlify.app/)
+- Solution URL: [This repository](https://github.com/AraMilagros/Dashboard-social-media.git)
+- Live Site URL: [Live](https://social-media90.netlify.app/)
 
 ### Built with
 
